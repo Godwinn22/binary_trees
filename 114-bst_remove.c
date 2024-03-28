@@ -43,7 +43,7 @@ bst_t *bst_remove(bst_t *root, int value)
 /**
  * bst_min_val - this finds the smallest node from a Binary Search Tree
  * @root: the pointer to the root node of the tree
- * 
+ *
  * Return: returns the pointer to the smallest node
  */
 bst_t *bst_min_val(bst_t *root)

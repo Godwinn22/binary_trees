@@ -1,10 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_levelorder - this traverses a binary tree using level-order traverse
+ * binary_tree_levelorder - this traverses a binary
+ * tree using level-order traverse
  * @tree: the tree to traverse
  * @func: the pointer to a function to call for each node
- * 
+ *
  * Return: returns nothing
  */
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
@@ -29,7 +30,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
  * @tree: the tree to traverse
  * @func: the pointer to a function to call for each node
  * @level: the level of the tree to call func upon
- * 
+ *
  * Return: returns nothing
  */
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level)
